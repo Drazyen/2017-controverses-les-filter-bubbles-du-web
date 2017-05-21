@@ -1,22 +1,22 @@
-Url,Date,Type d'url,Type d'acteur,Thème,Position,Poids,Lu en détail
-https://qz.com/913114/bill-gates-says-filter-bubbles-are-a-serious-problem-with-news/,21/02/17,Interview,Directeur Microsoft,Fausses informations,Limitation des vraies informations,Fort,Oui
-https://echochamber.club/ ,01/06/16,Bulletin d'informations,Commercial,Objectivité de l'information,Biais des informations,?,~
-https://sites.psu.edu/ekingcas272/2017/02/03/blog-1-fake-news-and-the-filter-bubble/ ,03/02/17,Blog,Étudiant,Objectivité de l'information,Biais des informations,Faible,Oui
-http://www.occultforum.org/forum/viewtopic.php?f=3&t=40348,28/03/17,Forum,Particuliers,Objectivité de l'information,Informations censurées,Faible,Oui
-https://blog.zooma.se/what-is-the-filter-bubble,14/04/16,Blog,Stratège du web,Facteurs d'influence,Nombre quasi-infini,Moyen,Oui
-http://blogs.die-gdi.de/2017/03/02/making-holes-in-the-filter-bubble/,02/03/17,Blog,Communication,Manque d'information,Devoir d'adaptation des gouvernements,,~
-https://blog.thesocialms.com/filter-bubble-facebook-radicalism/,15/03/16,Blog,Réseaux sociaux/Marketing,Radicalisation,Accentuation de la radicalisation,Moyen,Oui
-https://productforums.google.com/forum/#!topic/websearch/JhBjrcgntyc,27/06/12,Forum,Particuliers,Filtrage des informations,Contre,Faible,Oui
-https://productforums.google.com/forum/#!topic/websearch/hUM5LEXotjo,14/06/11,Forum,Particuliers,Filtrage des informations,Ajout d'une option de désactivation,Faible,Oui
-http://www.ipetitions.com/petition/openmyinternet/,?,Pétition,Particuliers,Filtrage des informations,Ajout d'une option de désactivation,Moyen/Faible,Oui
-http://beausievers.com/blog/post/filter-bubbles/,27/11/16,Blog,Doctorant,Objectivité de l'information,Biais des informations,Moyen/Faible,~
-https://learnersedgeinc.wordpress.com/2011/06/01/filter-bubble/,01/06/11,Blog,Professeur,Objectivité de l'information,Biais des informations,Faible,Oui
-http://www.internetsanscrainte.fr/blog-actu/filter-bubble-echo-chamber-premier-censeur-c-est-nous-etude-science-mag,11/05/15,Blog,Association,Objectivité de l'information,Biais des informations par l'utilisateur,Moyen/Faible,Oui
-https://www.ideo.com/blog/escape-your-filter-bubble-and-enhance-your-creativity,01/02/17,Blog,Design,Prévention,Il faut parler à des personnes en-dehors de nos cercles,Moyen,Oui
-https://forums.t-nation.com/t/filter-bubbles/164169/3,11/05/11,Forum,Particuliers,Objectivité de l'information,Impact faible,Faible,Oui
-https://www.kickstarter.com/projects/1897529922/dfiltr-popping-your-filter-bubble,18/06/14,Projet collaboratif,?,Objectivité de l'information,Biais des informations,?,Oui
-http://www.intotheminds.com/blog/en/recommendation-algorithms-the-myth-of-filter-bubbles-at-stake/,24/03/17,Blog,Marketing,Objectivité de l'information,Pas d'impact,Moyen,Oui
-http://blog.donnamillerfry.com/10-posts-10-days/whos-controlling-your-world-510/,21/01/17,Blog,Éducation,Objectivité de l'information,Biais des informations,Moyen,Oui
-https://forum.fairphone.com/t/stay-strong-and-resist-the-force/22002/10,01/09/16,Forum,Particuliers,Google,Personnalisation = Contrepartie,Faible,~
-http://www.internetsanscrainte.fr/s-informer/phenomene-filter-bubble-c-est-quoi,?,Article,Association,Objectivité de l'information,Biais des informations,Moyen/Fort,Oui
-https://humaneeducation.org/blog/2016/online-filter-bubbles-influencing-reality-video/,04/06/16,Blog,Association,Eli Pariser,Est d'accord,Moyen/Fort,Oui
+Url,Date,Type d'url,Type d'acteur,Thème,Position,Résumé,Poids,Lu en détail
+https://qz.com/913114/bill-gates-says-filter-bubbles-are-a-serious-problem-with-news/,21/02/17,Interview,Directeur Microsoft,Objectivité de l'information,Biais des informations,Bill Gates s'inquiète du fait que les Filter Bubbles enferment les gens dans une vision erronée du monde en les empêchant de voir toutes les informations.,Fort,Oui
+https://echochamber.club/ ,01/06/16,Bulletin d'informations,Commercial,Objectivité de l'information,Biais des informations,Un bulletin d'informations créé spécialement pour donner l'accès à des informations « objectives » et non influencées par les Filter Bubbles .,?,~
+https://sites.psu.edu/ekingcas272/2017/02/03/blog-1-fake-news-and-the-filter-bubble/ ,03/02/17,Blog,Étudiant,Objectivité de l'information,Biais des informations,"Les Filter Bubbles font que nous ne voyons que des informations proches de notre point de vue, mais sans que nous nous en rendions compte.",Faible,Oui
+http://www.occultforum.org/forum/viewtopic.php?f=3&t=40348,28/03/17,Forum,Particuliers,Objectif des Filter Bubbles,Contrôle de l'information,Les Filter Bubbles peuvent être utilisées pour contrôler les informations accessibles au public.,Faible,Oui
+https://blog.zooma.se/what-is-the-filter-bubble,14/04/16,Blog,Stratège du web,Facteurs d'influence,Nombre quasi-infini,Il existe un nombre quasi-infini de facteurs influençant les Filter Bubbles.,Moyen,Oui
+http://blogs.die-gdi.de/2017/03/02/making-holes-in-the-filter-bubble/,02/03/17,Blog,Communication,Manque d'information,Devoir d'adaptation des gouvernements,"Les Filters Bubbles privant les gens d'une partie de l'information, ce sont les organisations créant l'information qui doivent les percer.",?,~
+https://blog.thesocialms.com/filter-bubble-facebook-radicalism/,15/03/16,Blog,Réseaux sociaux/Marketing,Radicalisation,Accentuation de la radicalisation,Les filtres accentuent la propagation et l'importance des messages radicaux en les restreignant à des groupes de personnes ayant le même point de vue.,Moyen,Oui
+https://productforums.google.com/forum/#!topic/websearch/JhBjrcgntyc,27/06/12,Forum,Particuliers,Filtrage des informations,Contre,Message de colère contre la personnalisation des recherches faite par Google.,Faible,Oui
+https://productforums.google.com/forum/#!topic/websearch/hUM5LEXotjo,14/06/11,Forum,Particuliers,Filtrage des informations,Ajout d'une option de désactivation,Message d'interrogation sur l'avis de Google sur les Filter Bubbles et leur position sur les mesures à prendre.,Faible,Oui
+http://www.ipetitions.com/petition/openmyinternet/,?,Pétition,Particuliers,Filtrage des informations,Ajout d'une option de désactivation,Pétition demandant l'ajout d'une option de désactivation des filtres dans les recherches.,Moyen/Faible,Oui
+http://beausievers.com/blog/post/filter-bubbles/,27/11/16,Blog,Doctorant,Objectivité de l'information,Biais des informations,,Moyen/Faible,~
+https://learnersedgeinc.wordpress.com/2011/06/01/filter-bubble/,01/06/11,Blog,Professeur,Objectivité de l'information,Biais des informations,,Faible,Oui
+http://www.internetsanscrainte.fr/blog-actu/filter-bubble-echo-chamber-premier-censeur-c-est-nous-etude-science-mag,11/05/15,Blog,Association,Objectivité de l'information,Biais des informations par l'utilisateur,"Les algorithmes n'ont que peu d'impact sur le biais des recherches, ce sont les internautes eux-mêmes qui biaisent leurs recherches.",Moyen/Faible,Oui
+https://www.ideo.com/blog/escape-your-filter-bubble-and-enhance-your-creativity,01/02/17,Blog,Design,Prévention,Sortir de son cercle,Divers conseils donnés pour échapper aux Filter Bubbles et améliorer sa créativité.,Moyen,Oui
+https://forums.t-nation.com/t/filter-bubbles/164169/3,11/05/11,Forum,Particuliers,Objectivité de l'information,Impact faible,Seuls les premiers liens des recherches sont modifiés pour essayer de répondre le plus correctement aux demandes et les liens suivants sont inchangés.,Faible,Oui
+https://www.kickstarter.com/projects/1897529922/dfiltr-popping-your-filter-bubble,18/06/14,Projet collaboratif,?,Objectivité de l'information,Biais des informations,Projet d'application permettant de discuter avec des personnes d'avis différents sur tout type de sujet afin d'éviter les Filter Bubbles.,?,Oui
+http://www.intotheminds.com/blog/en/recommendation-algorithms-the-myth-of-filter-bubbles-at-stake/,24/03/17,Blog,Marketing,Objectivité de l'information,Pas d'impact,Diverses études scientifiques ont montré que les Filters Bubbles n'existent pas ou n'ont pas l'effet qu'on leur attribue.,Moyen,Oui
+http://blog.donnamillerfry.com/10-posts-10-days/whos-controlling-your-world-510/,21/01/17,Blog,Éducation,Objectivité de l'information,Biais des informations,,Moyen,Oui
+https://forum.fairphone.com/t/stay-strong-and-resist-the-force/22002/10,01/09/16,Forum,Particuliers,Google,Personnalisation = Contrepartie,La personnalisation des recherches par Google est la contrepartie au fait de pouvoir utiliser gratuitement ces services.,Faible,~
+http://www.internetsanscrainte.fr/s-informer/phenomene-filter-bubble-c-est-quoi,?,Article,Association,Objectivité de l'information,Biais des informations,,Moyen/Fort,Oui
+https://humaneeducation.org/blog/2016/online-filter-bubbles-influencing-reality-video/,04/06/16,Blog,Association,Objectivité de l'information,Biais des informations,Résumé de la conférence d'Eli Pariser et reprise point par point de ses arguments,Moyen/Fort,Oui
