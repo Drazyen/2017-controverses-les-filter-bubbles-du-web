@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./assets/css/modal-window.css">
         
         <script src="http://phuonghuynh.github.io/js/bower_components/jquery/dist/jquery.min.js"></script>
           <script src="http://phuonghuynh.github.io/js/bower_components/d3/d3.min.js"></script>
@@ -29,8 +30,8 @@
             .bubbleChart svg{
               background: #000000;
             }
-          </style>
-
+        </style>
+        
 	</head>
 	<body>
 		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
@@ -66,6 +67,8 @@
 		    </ul>
 		  </div>
 		</nav>
+        
+        <div id="dialogContainer"><p>coucou est-ce que ça marche ?</p></div>
 
 		<div class="container">
 
@@ -77,13 +80,18 @@
 
 	    
 		<div class="bubbleChart"/>
+        
+        
+        <div id="popup" class="popup_block">
+            <h2>Developpez.com</h2>
+            <p>Soh Tanaka est traduit sur developpez.com.</p>
+        </div>
+
 
 		<footer class="footer">
 			<div class="container">
 				<span class="text-muted">Site dans le cadre d'<a href="http://controverses.telecom-paristech.fr/">ETIC2017</a> &ndash; Tous droits réservés</span>
 			</div>
 		</footer>
-
-
 	</body>
 </html>
