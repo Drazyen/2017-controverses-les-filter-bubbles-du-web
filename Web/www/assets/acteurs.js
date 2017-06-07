@@ -19,7 +19,7 @@ var flaredata = {
         "links": ["Individu",
             "Personnalité politique",
             "contenu restreint",
-            "Dénonce l'existence des filter bubble et leur impact"]
+            "Dénonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name": "Valentina Maccatrozzo",
@@ -136,9 +136,9 @@ var flaredata = {
         "slug": "chercheurs-2"
     }, {
         "type": "theme",
-        "name": "Individus",
+        "name": "Individu",
         "description": "",
-        "slug": "individus-2"
+        "slug": "individu-2"
     }, {
         "type": "theme",
         "name": "Association",
