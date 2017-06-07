@@ -6,6 +6,18 @@
 		<title>Les &laquo; filter bubble &raquo; du web - Acteurs</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css">
+        
+        <link rel="stylesheet" href="assets/css/conceptmap.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+        <script src="assets/acteurs.js"></script>
+        <script src="assets/js/conceptmap.js"></script>
+        
+        
+        <script async src="//jsfiddle.net/musakkhir/zshmxx3y/13/embed/"></script>
+        
 	</head>
 	<body>
 		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
@@ -46,125 +58,30 @@
 
 		  <div class="starter-template">
 		    <h1>Acteurs</h1>
-		    <p class="lead">Qu'est-ce que sont les <strong>bulles de filtrage</strong> ? Google, Facebook et les autres géants du web sont-ils une menace pour la démocratie à travers leurs contenus personnalisés ?</p>
+		    <p>Les différents acteurs de la controverse se différencient notamment par les <strong>sphères</strong> dans laquelle ils évoluent (à gauche dans le graphe) et aussi par la façon dont ils se positionnent par rapport à un certain nombre de <strong>débats sous-jacents</strong> à la controverse (à droite). On peut distinguer globalement trois groupes :</p>
+              <ul>
+                  <li>ceux qui <strong>dénoncent</strong> simplement l’existence et l’impact des filter bubbles</li>
+                  <li>ceux qui tentent de <strong>relativiser</strong> leur impact</li>
+                  <li>ceux qui tentent de proposer des <strong>solutions</strong> aux filter bubbles, soit en les contournant, soit en les améliorant</li>
+              </ul>
+            <p>On ajoutera à cela la présence d’acteurs politiques, qui jouent le rôle d’<strong>arbitres</strong>, et des <strong>entreprises</strong> du numérique, responsables de l’existence de ces bulles filtrantes.</p>
 			
 
 		  </div>
-
+            
+            <div id="graph" class="conceptmap"></div>
+            <div id="graph-info"></div>
 		</div><!-- /.container -->
 
-		<style type="text/css">
+        
+        
+        
 
-		text {
-		  font-size: 11px;
-		  pointer-events: none;
-		}
-
-		text.parent {
-		  fill: #1f77b4;
-		}
-
-		circle {
-		  fill: #ccc;
-		  stroke: #999;
-		  pointer-events: all;
-		}
-
-		circle.parent {
-		  fill: #1f77b4;
-		  fill-opacity: .1;
-		  stroke: steelblue;
-		}
-
-		circle.parent:hover {
-		  stroke: #ff7f0e;
-		  stroke-width: .5px;
-		}
-
-		circle.child {
-		  pointer-events: none;
-		}
-		</style>
-	    <script type="text/javascript" src="assets/js/d3.js"></script>
-	    <script type="text/javascript" src="assets/js/d3.layout.js"></script>
-	    <script type="text/javascript">
-
-		var w = 1280,
-		    h = 800,
-		    r = 720,
-		    x = d3.scale.linear().range([0, r]),
-		    y = d3.scale.linear().range([0, r]),
-		    node,
-		    root;
-
-		var pack = d3.layout.pack()
-		    .size([r, r])
-		    .value(function(d) { return d.size; })
-
-		var vis = d3.select("body").insert("svg:svg", "h2")
-		    .attr("width", w)
-		    .attr("height", h)
-		  .append("svg:g")
-		    .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
-
-		d3.json("assets/acteurs.json", function(data) {
-		  node = root = data;
-
-		  var nodes = pack.nodes(root);
-
-		  vis.selectAll("circle")
-		      .data(nodes)
-		    .enter().append("svg:circle")
-		      .attr("class", function(d) { return d.children ? "parent" : "child"; })
-		      .attr("cx", function(d) { return d.x; })
-		      .attr("cy", function(d) { return d.y; })
-		      .attr("r", function(d) { return d.r; })
-		      .on("click", function(d) { return zoom(node == d ? root : d); });
-
-		  vis.selectAll("text")
-		      .data(nodes)
-		    .enter().append("svg:text")
-		      .attr("class", function(d) { return d.children ? "parent" : "child"; })
-		      .attr("x", function(d) { return d.x; })
-		      .attr("y", function(d) { return d.y; })
-		      .attr("dy", ".35em")
-		      .attr("text-anchor", "middle")
-		      .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
-		      .text(function(d) { return d.name; });
-
-		  d3.select(window).on("click", function() { zoom(root); });
-		});
-
-		function zoom(d, i) {
-		  var k = r / d.r / 2;
-		  x.domain([d.x - d.r, d.x + d.r]);
-		  y.domain([d.y - d.r, d.y + d.r]);
-
-		  var t = vis.transition()
-		      .duration(d3.event.altKey ? 7500 : 750);
-
-		  t.selectAll("circle")
-		      .attr("cx", function(d) { return x(d.x); })
-		      .attr("cy", function(d) { return y(d.y); })
-		      .attr("r", function(d) { return k * d.r; });
-
-		  t.selectAll("text")
-		      .attr("x", function(d) { return x(d.x); })
-		      .attr("y", function(d) { return y(d.y); })
-		      .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; });
-
-		  node = d;
-		  d3.event.stopPropagation();
-		}
-
-		    </script>
 
 		<footer class="footer">
 			<div class="container">
 				<span class="text-muted">Site dans le cadre d'<a href="http://controverses.telecom-paristech.fr/">ETIC2017</a> &ndash; Tous droits réservés</span>
 			</div>
 		</footer>
-
-
 	</body>
 </html>
