@@ -11,47 +11,47 @@ var flaredata = {
         "ditem": 1,
         "links": ["Association",
             "contenu restreint",
-            "les filter bubbles d'ont pas l'impact attribu&eacute"]
+            "les filter bubbles d'ont pas l'impact attribué"]
     }, {
         "type": "ditem",
         "name": "Eli Pariser",
         "ditem": 2,
         "links": ["Individu",
-            "Personnalit&eacute politique",
+            "Personnalité politique",
             "contenu restreint",
-            "D&eacutenonce l'existence des filter bubbles et leur impact"]
+            "Dénonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name": "Valentina Maccatrozzo",
         "ditem": 3,
-        "links": ["Chercheurs/ing&eacutenieurs",
+        "links": ["Chercheurs/ingénieurs",
             "contenu restreint",
-            "D&eacutenonce l'existence des filter bubbles et leur impact"]
+            "Dénonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name":"E. Bozdag, Q. Gao, G.J. Houben, M.E. Warnier",
         "ditem": 4,
-        "links": ["Chercheurs/ing&eacutenieurs",
+        "links": ["Chercheurs/ingénieurs",
             "contenu restreint"]
     }, {
         "type": "ditem",
         "name": "Dimitar Nikolov, Diego F.M. Oliveira, Alessandro Flammini, Filippo Menczer",
         "ditem": 5,
-        "links": ["Chercheurs/ing&eacutenieurs",
+        "links": ["Chercheurs/ingénieurs",
             "contenu restreint",
-            "D&eacutenonce l'existence des filter bubbles et leur impact"]
+            "Dénonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name": "Tien T. Nguyen, Pik-Mai Hu, Maxwell Harper, Loren Terveen, Joseph A. Konstan",
         "ditem": 6,
-        "links": ["Chercheurs/ing&eacutenieurs",
+        "links": ["Chercheurs/ingénieurs",
             "contenu restreint"]
     }, {
         "type": "ditem",
         "name": "Paolo Cremonesi, Yehuda Koren, Roberto Turrin",
         "ditem": 7,
-        "links": ["Chercheurs/ing&eacutenieurs",
-            "les filter bubbles n'ont pas l'impact attribu&eacute"]
+        "links": ["Chercheurs/ingénieurs",
+            "les filter bubbles n'ont pas l'impact attribué"]
     }, {
         "type": "ditem",
         "name": "Jigsaw",
@@ -80,48 +80,48 @@ var flaredata = {
         "ditem": 11,
         "links": ["Individu",
             "contenu restreint",
-            "D&eacutenonce l'existence des filter bubbles et leur impact"]
+            "Dénonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name": "Partie de la population",
         "ditem": 12,
         "links": ["Individu",
-            "les filter bubbles n'ont pas l'impact attribu&eacute"]
+            "les filter bubbles n'ont pas l'impact attribué"]
     }, {
         "type": "ditem",
         "name": "CNIL",
         "ditem": 13,
-        "links": ["Institution<br>politique", "Neutre", "Neutralit&eacute juridique ou politique"]
+        "links": ["Institution politique","Neutre","Neutralité juridique ou politique"]
     }, {
         "type": "ditem",
         "name": "Barack Obama",
         "ditem": 14,
-        "links": ["Personnalit&eacute politique", "Individu", "contenu restreint", "D&eacutenonce l'existence des filter bubbles et leur impact"]
+        "links": ["Personnalité politique", "Individu", "contenu restreint", "Dénonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
-        "name": "Assembl&eacutee Nationale",
+        "name": "Assemblée Nationale",
         "ditem": 15,
-        "links": ["Institution<br>politique", "Neutre", "Neutralit&eacute juridique ou politique"]
+        "links": ["Institution politique","Neutre", "Neutralité juridique ou politique"]
     }, {
         "type": "ditem",
         "name": "Google",
         "ditem": 16,
-        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr&eacutee les filter bubbles"]
+        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Crée les filter bubbles"]
     }, {
         "type": "ditem",
         "name": "Facebook",
         "ditem": 17,
-        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr&eacutee les filter bubbles"]
+        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Crée les filter bubbles"]
     }, {
         "type": "ditem",
         "name": "Katharin Viner, Guardian",
         "ditem": 18,
-        "links": ["Presse", "contenu restreint", "D&eacutenonce l'existence des filter bubbles et leur impact"]
+        "links": ["Presse", "contenu restreint", "Dénonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name": "Claire Richard, Rue89",
         "ditem": 19,
-        "links": ["Presse", "Neutre", "les filter bubbles n'ont pas l'impact attribu&eacute"]
+        "links": ["Presse","Neutre","les filter bubbles n'ont pas l'impact attribué"]
     }, {
         "type": "ditem",
         "name": "Wall Street Journal",
@@ -131,7 +131,7 @@ var flaredata = {
     ],
     "themes": [{
         "type": "theme",
-        "name": "Chercheurs/ing&eacutenieurs",
+        "name": "Chercheurs/ingénieurs",
         "description": "",
         "slug": "chercheurs-2"
     }, {
@@ -151,7 +151,7 @@ var flaredata = {
         "slug": "application-2"
     }, {
         "type": "theme",
-        "name": "Personnalit&eacute politique",
+        "name": "Personnalité politique",
         "description": "",
         "slug": "politique-2"
     }, {
@@ -166,7 +166,7 @@ var flaredata = {
         "slug": "entreprise-2"
     }, {
         "type": "theme",
-        "name": "Institution<br>politique",
+        "name": "Institution politique",
         "description": "",
         "slug": "institution-2"
     }, {
@@ -176,7 +176,7 @@ var flaredata = {
         "slug": "neutre-2"
     }, {
         "type": "theme",
-        "name": "Acc&egraves &agrave toute l'info",
+        "name": "Accès à toute l'info",
         "description": "",
         "slug": "blog-lineaguida.com-2"
     }, {
@@ -186,12 +186,12 @@ var flaredata = {
         "slug": "bloomecorp.com-2"
     }, {
         "type": "theme",
-        "name": "D&eacutenonce l'existence des filter bubbles et leur impact",
+        "name": "Dénonce l'existence des filter bubbles et leur impact",
         "description": "",
         "slug": "botw.org-2"
     }, {
         "type": "theme",
-        "name": "les filter bubbles n'ont pas l'impact attribu&eacute",
+        "name": "les filter bubbles n'ont pas l'impact attribué",
         "description": "",
         "slug": "btobonlinedirectory.com-2"
     }, {
@@ -201,12 +201,12 @@ var flaredata = {
         "slug": "budgetinnpocahontas.com-2"
     }, {
         "type": "theme",
-        "name": "Cr&eacutee les filter bubbles",
+        "name": "Crée les filter bubbles",
         "description": "",
         "slug": "businessnewsdaily.com-2"
     }, {
         "type": "theme",
-        "name": "Neutralit&eacute juridique ou politique",
+        "name": "Neutralité juridique ou politique",
         "description": "",
         "slug": "neutralite-2"
     },
