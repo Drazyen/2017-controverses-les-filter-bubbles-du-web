@@ -6,126 +6,126 @@ var flaredata = {
         "links": ["Individu",
             "Contenu restreint"]
     }, {
-        "type": "ditem",
-        "name": "Internet sans crainte",
-        "ditem": 1,
+        "type": "ditems",
+        "name": "internet sans crainte",
+        "ditem": 0,
         "links": ["Association",
-            "Contenu restreint",
-            "Les filter bubbles n'ont pas l'impact attribu\351"]
+            "contenu restreint",
+            "les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Eli Pariser",
-        "ditem": 2,
+        "ditem": 0,
         "links": ["Individu",
             "Personnalit\351 politique",
             "Contenu restreint",
             "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Valentina Maccatrozzo",
-        "ditem": 3,
+        "ditem": 0,
         "links": ["Chercheurs/ing\351nieurs",
             "Contenu restreint",
             "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
-        "type": "ditem",
-        "name":"E. Bozdag, Q. Gao, G.J. Houben, M.E. Warnier",
-        "ditem": 4,
+        "type": "ditems",
+        "name":"E. Bozdag, Q. Gao...",
+        "ditem": 0,
         "links": ["Chercheurs/ing\351nieurs",
             "Contenu restreint"]
     }, {
-        "type": "ditem",
-        "name": "Dimitar Nikolov, Diego F.M. Oliveira, Alessandro Flammini, Filippo Menczer",
-        "ditem": 5,
+        "type": "ditems",
+        "name": "Dimitar Nikolov...",
+        "ditem": 0,
         "links": ["Chercheurs/ing\351nieurs",
             "Contenu restreint",
             "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
-        "type": "ditem",
-        "name": "Tien T. Nguyen, Pik-Mai Hu, Maxwell Harper, Loren Terveen, Joseph A. Konstan",
-        "ditem": 6,
+        "type": "ditems",
+        "name": "Tien T. Nguyen...",
+        "ditem": 0,
         "links": ["Chercheurs/ing\351nieurs",
             "Contenu restreint"]
     }, {
-        "type": "ditem",
-        "name": "Paolo Cremonesi, Yehuda Koren, Roberto Turrin",
-        "ditem": 7,
+        "type": "ditems",
+        "name": "Paolo Cremonesi",
+        "ditem": 0,
         "links": ["Chercheurs/ing\351nieurs",
             "Les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Jigsaw",
-        "ditem": 8,
-        "links": ["Entreprise - Site Web ou application",
-            "Contenu restreint",
+        "ditem": 0,
+        "links": ["Entreprise", "Site Web ou application",
+            "contenu restreint",
             "Echappatoire aux filter bubbles"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "The Kind Fundation",
-        "ditem": 9,
+        "ditem": 0,
         "links": ["Association",
             "Site Web ou application",
             "Contenu restreint",
             "Echappatoire aux filter bubbles"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Politecho",
-        "ditem": 10,
+        "ditem": 0,
         "links": ["Individu",
             "Site Web ou Application",
             "Contenu restreint"]
     }, {
-        "type": "ditem",
-        "name": "Partie de la population",
-        "ditem": 11,
+        "type": "ditems",
+        "name": "Partie de la population 1",
+        "ditem": 0,
         "links": ["Individu",
             "Contenu restreint",
             "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
-        "type": "ditem",
-        "name": "Partie de la population",
-        "ditem": 12,
+        "type": "ditems",
+        "name": "Partie de la population 2",
+        "ditem": 0,
         "links": ["Individu",
             "Les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "CNIL",
-        "ditem": 13,
+        "ditem": 0,
         "links": ["Institution politique", "Neutre", "Neutralit\351 juridique ou politique"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Barack Obama",
-        "ditem": 14,
-        "links": ["Personnalit\351 politique", "Individu", "Contenu restreint", "D\351nonce l'existence des filter bubbles et leur impact"]
+        "ditem": 0,
+        "links": ["Personnalit\351 politique", "Individu", "contenu restreint", "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Assembl\351e Nationale",
-        "ditem": 15,
+        "ditem": 0,
         "links": ["Institution politique", "Neutre", "Neutralit\351 juridique ou politique"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Google",
-        "ditem": 16,
-        "links": ["Entreprise", "Site Web ou application", "Contenu restreint", "Cr\351e les filter bubbles"]
+        "ditem": 0,
+        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr\351e les filter bubbles"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Facebook",
-        "ditem": 17,
-        "links": ["Entreprise", "Site Web ou application", "Contenu restreint", "Cr\351e les filter bubbles"]
+        "ditem": 0,
+        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr\351e les filter bubbles"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Katharin Viner, Guardian",
-        "ditem": 18,
-        "links": ["Presse", "Contenu restreint", "D\351nonce l'existence des filter bubbles et leur impact"]
+        "ditem": 0,
+        "links": ["Presse", "contenu restreint", "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Claire Richard, Rue89",
-        "ditem": 19,
-        "links": ["Presse", "Neutre", "Les filter bubbles n'ont pas l'impact attribu\351"]
+        "ditem": 0,
+        "links": ["Presse", "Neutre", "les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
-        "type": "ditem",
+        "type": "ditems",
         "name": "Wall Street Journal",
-        "ditem": 20,
+        "ditem": 0,
         "links": ["Presse", "Site Web ou application","Echappatoire aux filter bubbles"]
     },
     ],
@@ -203,6 +203,7 @@ var flaredata = {
         "type": "theme",
         "name": "Echappatoire aux filter bubbles",
         "description": "",
+        "links" : ["Cr\351e les filter bubbles"],
         "slug": "budgetinnpocahontas.com-2"
     }, {
         "type": "theme",
