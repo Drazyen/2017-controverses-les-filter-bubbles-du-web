@@ -203,7 +203,7 @@
       var swapped = false;
       node.style("cursor", "pointer").on("click", function (d) {
         self.clickedNode = d3.select(this);
-        self.event.send("click", self.clickedNode);
+        //self.event.send("click", self.clickedNode);
         self.reset(self.centralNode);
         self.moveToCentral(self.clickedNode);
         self.moveToReflection(self.svg.selectAll(".node:not(.active)"), swapped);
