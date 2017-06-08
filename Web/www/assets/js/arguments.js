@@ -22,7 +22,10 @@ $(document).ready(function () {
 
 function setListener(bubbleChart, arbre, liste) {
     $(".node").on("click", function () {
-        var index = bubbleChart.getClickedNode()[0][0].__data__.item.index;
+        var clickedNode = bubbleChart.getClickedNode();
+        var len = clickedNode.length;
+        console.log(clickedNode);
+        var index = bubbleChart.getClickedNode()[len - 1][0].__data__.item.index;
         console.log("index : ", index);
         if (index === 0) {
             liste = liste.slice(0, liste.length-1);
@@ -42,7 +45,7 @@ function setListener(bubbleChart, arbre, liste) {
 
 function reloadChart(res, bubbleChart, arbre, liste) {
     if (res === null) {
-        console.log("coucou");
+        concole.log("bout de branche");
     }
     else {
         $(".bubbleChart").empty();
@@ -53,8 +56,8 @@ function reloadChart(res, bubbleChart, arbre, liste) {
 
 
 function getList(tree, list) {
-    if (list.length === 0 && typeof tree.children === "undefined") {
-        createModalWindow("","");
+    if (typeof tree.children === "undefined") {
+        createModalWindow(tree);
         return null;
     } 
     else if (list.length === 0) {
@@ -74,7 +77,10 @@ function getList(tree, list) {
 }
 
 
-function createModalWindow(text, img) {
+function createModalWindow(node) {
+    //Modifier le contenu de la fenêtre
+    $("#popup").html("<h2>" + node.name + "</h2>" + node.content);
+    
     //Faire apparaitre la pop-up et ajouter le bouton de fermeture
 	$("#popup").fadeIn().css({
 		'width': Number(500)

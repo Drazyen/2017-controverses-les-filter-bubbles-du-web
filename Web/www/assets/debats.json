@@ -5,11 +5,13 @@
         "children" : [
             {
                 "name" : "Accentuation de la radicalisation",
-                "size" : 1000
+                "size" : 1000,
+                "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
             },
             {
                 "name" : "Polarisation de la société",
-                "size" : 1000
+                "size" : 1000,
+                "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
             }
         ]
     }, {
@@ -20,11 +22,13 @@
                 "children" : [
                     {
                         "name" : "Propagation des fake news",
-                        "size": 1000
+                        "size": 1000,
+                        "content" : "<p>ceci est un essai</p>"
                     },
                     {
                         "name" : "Problème de diversité de l'information",
-                        "size" : 1000
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
                     }
                 ]
             },
@@ -33,15 +37,18 @@
                 "children" : [
                     {
                         "name" : "Métrique de personnalisation",
-                        "size" : 1000
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
                     },
                     {
                         "name" : "Diversité des usages",
-                        "size" : 1000
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
                     },
                     {
                         "name" : "Quel est l'objectif de cette personnalisation ?",
-                        "size" : 1000
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
                     }
                 ]                
             }
@@ -52,11 +59,13 @@
         "children" : [
             {
                 "name" : "Prolongement des chambres d'écho médiatiques",
-                "size" : 1000
+                "size" : 1000,
+                "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
             },
             {
                 "name" : "Absence d'éthique journalistique dans le choix des informations",
-                "size" : 1000
+                "size" : 1000,
+                "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
             }
         ]
     }, {
@@ -67,11 +76,13 @@
                 "children" : [
                     {
                         "name" : "Difficultés pour évaluer les conséquences des filter bubbles",
-                        "size" : 1000
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
                     },
                     {
                         "name" : "Problème concernant la transparence du traitement des données",
-                        "size" : 1000
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
                     }
                 ]
             },
@@ -80,7 +91,8 @@
                 "children" : [
                     {
                         "name" : "Confidentialité des données privées",
-                        "size" : 1000
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
                     }
                 ]
             }
