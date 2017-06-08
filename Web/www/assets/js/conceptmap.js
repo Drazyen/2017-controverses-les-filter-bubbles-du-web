@@ -137,7 +137,13 @@ $(function () {
             af.x = Z - ae * ac;
             af.y = h / 2 - R;
             //            af.xOffset = -S;
-            af.xOffset =- S;
+            if(af.x>180)
+             {
+               af.xOffset = -S;
+             }else
+             {
+               af.xOffset = S;
+             }
             af.depth = 1
             /*Node with rectange= End*/
         });
@@ -162,16 +168,30 @@ $(function () {
                 }
                 Y = (ab.x - 90) * Math.PI / 180;
                 aa = ae.key + "-to-" + ab.key;
-                H.push({
-                    source: ae,
-                    target: ab,
-                    key: aa,
-                    canonicalKey: aa,
-                    x1: ae.x + (ab.type === "theme" ? 0 : U),
-                    y1: ae.y + K / 2,
-                    x2: Math.cos(Y) * X + ab.xOffset,
-                    y2: Math.sin(Y) * X
-                })
+                if (ab.x > 180) {
+                    H.push({
+                        source: ae,
+                        target: ab,
+                        key: aa,
+                        canonicalKey: aa,
+                        x1: ae.x + (ab.type === "theme" ? 0 : U),
+                        y1: ae.y + K / 2,
+                        x2: Math.cos(Y) * X + ab.xOffset,
+                        y2: Math.sin(Y) * X
+                    })
+                }
+                else if (ae.x < 180) {
+                    H.push({
+                        source: ae,
+                        target: ab,
+                        key: aa,
+                        canonicalKey: aa,
+                        x1: ae.x + (ab.type === "theme" ? U : 0),
+                        y1: ae.y + K / 2,
+                        x2: Math.cos(Y) * X + ab.xOffset,
+                        y2: Math.sin(Y) * X
+                    })
+                }
             })
         });
         P = [];
