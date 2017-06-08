@@ -24,33 +24,33 @@ var flaredata = {
         "type": "ditem",
         "name": "Valentina Maccatrozzo",
         "ditem": 3,
-        "links": ["Chercheurs/\ning\351nieurs",
+        "links": ["Chercheurs/ing\351nieurs",
             "contenu restreint",
             "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name":"E. Bozdag, Q. Gao, G.J. Houben, M.E. Warnier",
         "ditem": 4,
-        "links": ["Chercheurs/\ning\351nieurs",
+        "links": ["Chercheurs/ing\351nieurs",
             "contenu restreint"]
     }, {
         "type": "ditem",
         "name": "Dimitar Nikolov, Diego F.M. Oliveira, Alessandro Flammini, Filippo Menczer",
         "ditem": 5,
-        "links": ["Chercheurs/\ning\351nieurs",
+        "links": ["Chercheurs/ing\351nieurs",
             "contenu restreint",
             "D\351nonce l'existence des filter bubbles et leur impact"]
     }, {
         "type": "ditem",
         "name": "Tien T. Nguyen, Pik-Mai Hu, Maxwell Harper, Loren Terveen, Joseph A. Konstan",
         "ditem": 6,
-        "links": ["Chercheurs/\ning\351nieurs",
+        "links": ["Chercheurs/ing\351nieurs",
             "contenu restreint"]
     }, {
         "type": "ditem",
         "name": "Paolo Cremonesi, Yehuda Koren, Roberto Turrin",
         "ditem": 7,
-        "links": ["Chercheurs/\ning\351nieurs",
+        "links": ["Chercheurs/ing\351nieurs",
             "les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
         "type": "ditem",
@@ -131,14 +131,14 @@ var flaredata = {
     ],
     "themes": [{
         "type": "theme",
-        "name": "Chercheurs/ing\351nieurs",
-        "description": "",
-        "slug": "chercheurs-2"
-    }, {
-        "type": "theme",
         "name": "Individu",
         "description": "",
         "slug": "individu-2"
+    }, {
+        "type": "theme",
+        "name": "Chercheurs/ing\351nieurs",
+        "description": "",
+        "slug": "chercheurs-2"
     }, {
         "type": "theme",
         "name": "Association",
@@ -156,6 +156,11 @@ var flaredata = {
         "slug": "politique-2"
     }, {
         "type": "theme",
+        "name": "Institution politique",
+        "description": "",
+        "slug": "institution-2"
+    }, {
+        "type": "theme",
         "name": "Presse",
         "description": "",
         "slug": "presse-2"
@@ -164,11 +169,6 @@ var flaredata = {
         "name": "Entreprise",
         "description": "",
         "slug": "entreprise-2"
-    }, {
-        "type": "theme",
-        "name": "Institution politique",
-        "description": "",
-        "slug": "institution-2"
     }, {
         "type": "theme",
         "name": "Neutre",
@@ -196,6 +196,11 @@ var flaredata = {
         "slug": "btobonlinedirectory.com-2"
     }, {
         "type": "theme",
+        "name": "Neutralit\351 juridique ou politique",
+        "description": "",
+        "slug": "neutralite-2"
+    }, {
+        "type": "theme",
         "name": "Echappatoire aux filter bubbles",
         "description": "",
         "slug": "budgetinnpocahontas.com-2"
@@ -204,11 +209,6 @@ var flaredata = {
         "name": "Cr\351e les filter bubbles",
         "description": "",
         "slug": "businessnewsdaily.com-2"
-    }, {
-        "type": "theme",
-        "name": "Neutralit\351 juridique ou politique",
-        "description": "",
-        "slug": "neutralite-2"
-    },
+    }
     ]
 };
