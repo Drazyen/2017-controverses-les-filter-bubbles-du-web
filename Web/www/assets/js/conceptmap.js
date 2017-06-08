@@ -457,11 +457,11 @@ $(function () {
                 return "/" + ae.slug
             });
             aa.append("text").attr("fill", N).attr("text-anchor", "middle").attr("y", (o + t) * -1).text(function (ae) {
-                return "ITEM " + ae.ditem
+                return ""
             })
         } else {
             if (ab && ab.type === "theme") {
-                Y.append("text").attr("fill", "#aaa").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("THEME")
+                Y.append("text").attr("fill", "#aaa").attr("text-anchor", "middle").attr("y", (o + t) * -1).text("")
             } else {
                 //                if (ab && ab.type === "perspective") {
                 //                    var ad = ac.selectAll(".pair").data(A.get(ab.group).filter(function (ae) {

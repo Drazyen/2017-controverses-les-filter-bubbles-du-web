@@ -1,4 +1,4 @@
-{  
+﻿{  
    "episodes":[  
       {  
          "type":"episode",
@@ -14,7 +14,7 @@
       },
       {  
          "type":"episode",
-         "name":"internet sans crainte",
+         "name":"Internet sans crainte",
          "description":"",
          "episode":2,
          "date":"",

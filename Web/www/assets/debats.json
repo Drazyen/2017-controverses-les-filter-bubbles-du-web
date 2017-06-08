@@ -1,4 +1,4 @@
-{
+﻿{
     "name": "Les filter bubbles",
     "children": [{
         "name" : "Polarisation du contenu",
@@ -15,7 +15,7 @@
             }
         ]
     }, {
-        "name" : "biais d'information",
+        "name" : "Biais d'information",
         "children" : [
             {
                 "name" : "Accès à l'information non pondéré",
@@ -69,7 +69,7 @@
             }
         ]
     }, {
-        "name" : "confidentialité et transparence",
+        "name" : "Confidentialité et transparence",
         "children" : [
             {
                 "name" : "Confidentialité de l'algorithme",
