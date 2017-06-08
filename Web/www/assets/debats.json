@@ -14,20 +14,20 @@
                 "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
             },
             {
-        "name" : "Ligne éditoriale personnalisée",
-        "children" : [
-            {
-                "name" : "Prolongement des chambres d'écho médiatiques",
-                "size" : 1000,
-                "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
-            },
-            {
-                "name" : "Absence d'éthique journalistique dans le choix des informations",
-                "size" : 1000,
-                "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
+                "name" : "Ligne éditoriale personnalisée",
+                "children" : [
+                    {
+                        "name" : "Prolongement des chambres d'écho médiatiques",
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
+                    },
+                    {
+                        "name" : "Absence d'éthique journalistique dans le choix des informations",
+                        "size" : 1000,
+                        "content" : "<p>ceci est un essai</p><p>J'espère sincèrement que ça va marcher</p>"
+                    }
+                ]
             }
-        ]
-    }
         ]
     }, {
         "name" : "Biais d'information",
@@ -71,12 +71,9 @@
                     }
                 ]                
             }
-            
         ]
     }, {
-        ]
-    }, {
-        "name" : "confidentialité et transparence",
+        "name" : "Confidentialité et transparence",
         "children" : [
             {
                 "name" : "Confidentialité de l'algorithme",
