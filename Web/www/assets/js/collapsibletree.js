@@ -9,8 +9,8 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.send(null);
 
 var width = 1062;
-var height = 400;
-var maxLabel = 150;
+var height = 530;
+var maxLabel = 180;
 var duration = 500;
 var radius = 5;
     
@@ -27,7 +27,7 @@ var svg = d3.select("#tree").append("svg")
     .attr("width", width)
     .attr("height", height)
         .append("g")
-        .attr("transform", "translate(" + maxLabel + ",0)");
+        .attr("transform", "translate(" + (maxLabel - 58) + ",0)");
 
 root = json;
 root.x0 = height / 2;
@@ -82,7 +82,7 @@ function update(source)
         .attr("r", function(d){ return computeRadius(d); })
         .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
-    nodeUpdate.select("text").style("fill-opacity", 1);
+    nodeUpdate.select("text").style("fill-opacity", 1).style("font-size", "0.85em");
 
     // Transition exiting nodes to the parent's new position.
     var nodeExit = node.exit().transition()

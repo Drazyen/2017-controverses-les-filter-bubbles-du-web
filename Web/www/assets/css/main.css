@@ -7,6 +7,11 @@ html {
   position: relative;
   min-height: 100%;
 }
+nav.navbar {
+  background: url(../img/bubbles_grey.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
 .starter-template {
   padding: 3rem 1.5rem;
 }

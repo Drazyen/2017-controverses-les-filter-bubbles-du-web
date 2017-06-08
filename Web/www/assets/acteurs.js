@@ -11,7 +11,7 @@ var flaredata = {
         "ditem": 0,
         "links": ["Association",
             "contenu restreint",
-            "Les filter bubbless n'ont pas l'impact attribu\351"]
+            "Les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
         "type": "ditems",
         "name": "Eli Pariser",
@@ -51,7 +51,7 @@ var flaredata = {
         "name": "Paolo Cremonesi",
         "ditem": 0,
         "links": ["Chercheurs/ing\351nieurs",
-            "Les filter bubbless n'ont pas l'impact attribu\351"]
+            "Les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
         "type": "ditems",
         "name": "Jigsaw",
@@ -86,7 +86,7 @@ var flaredata = {
         "name": "Partie de la population 2",
         "ditem": 0,
         "links": ["Individu",
-            "Les filter bubbless n'ont pas l'impact attribu\351"]
+            "Les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
         "type": "ditems",
         "name": "CNIL",
@@ -106,12 +106,12 @@ var flaredata = {
         "type": "ditems",
         "name": "Google",
         "ditem": 0,
-        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr\351e Les filter bubbless"]
+        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr\351e Les filter bubbles"]
     }, {
         "type": "ditems",
         "name": "Facebook",
         "ditem": 0,
-        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr\351e Les filter bubbless"]
+        "links": ["Entreprise", "Site Web ou application", "contenu restreint", "Cr\351e Les filter bubbles"]
     }, {
         "type": "ditems",
         "name": "Katharin Viner, Guardian",
@@ -121,7 +121,7 @@ var flaredata = {
         "type": "ditems",
         "name": "Claire Richard, Rue89",
         "ditem": 0,
-        "links": ["Presse", "Neutre", "Les filter bubbless n'ont pas l'impact attribu\351"]
+        "links": ["Presse", "Neutre", "Les filter bubbles n'ont pas l'impact attribu\351"]
     }, {
         "type": "ditems",
         "name": "Wall Street Journal",
@@ -191,7 +191,7 @@ var flaredata = {
         "slug": "botw.org-2"
     }, {
         "type": "theme",
-        "name": "Les filter bubbless n'ont pas l'impact attribu\351",
+        "name": "Les filter bubbles n'ont pas l'impact attribu\351",
         "description": "",
         "slug": "btobonlinedirectory.com-2"
     }, {
@@ -203,11 +203,11 @@ var flaredata = {
         "type": "theme",
         "name": "Echappatoire aux filter bubbles",
         "description": "",
-        "links" : ["Cr\351e Les filter bubbless"],
+        "links" : ["Cr\351e Les filter bubbles"],
         "slug": "budgetinnpocahontas.com-2"
     }, {
         "type": "theme",
-        "name": "Cr\351e Les filter bubbless",
+        "name": "Cr\351e Les filter bubbles",
         "description": "",
         "slug": "businessnewsdaily.com-2"
     }

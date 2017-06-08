@@ -130,7 +130,7 @@
 .conceptmap svg {
   font-family: Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 15px;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .conceptmap .ditem > rect {
   stroke: #fff;

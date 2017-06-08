@@ -9,8 +9,8 @@ $(function () {
 //ConceptMap.js
   function ConceptMap (chartElementId, infoElementId, dataJson) {
 
-    var width = document.body.clientWidth; //window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    var height = 700; // window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    var width = document.body.clientWidth - 40; //window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    var height = 540; // window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     var a = width,
         c = height,
         h = c,
