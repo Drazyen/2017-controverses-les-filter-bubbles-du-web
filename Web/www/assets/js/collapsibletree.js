@@ -27,7 +27,7 @@ var svg = d3.select("#tree").append("svg")
     .attr("width", width)
     .attr("height", height)
         .append("g")
-        .attr("transform", "translate(" + (maxLabel - 58) + ",0)");
+        .attr("transform", "translate(" + (maxLabel - 53) + ",0)");
 
 root = json;
 root.x0 = height / 2;
